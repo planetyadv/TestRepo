@@ -10,7 +10,7 @@ def test_binary_code(binary_code):
     except ValueError:
         return "Ошибка! Неверный бинарный код."
 
-# Функция для открытия тестера
+# Функция для открытия тестераd
 def open_tester():
     tester_window = tk.Toplevel(root)
     tester_window.title("Binary Code Tester")
